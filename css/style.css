@@ -42,8 +42,82 @@ body {
   font-size: large;
 }
 .slider-text-bigger{
-  
+
 }
+.adjust-logo{
+  width: 75%;
+  position: absolute;
+  margin: -90px -520px;
+}
+.stairs-bg{
+  background-image: url("../images/heaven-stairs.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.white-transparent-bg{
+    background-color: rgba(255,255,255,0.4);
+}
+.make-image-responsive{
+    max-width: 100%;
+    height: auto;
+  }
+.ten-percent-width-for-bullet-point-cross{
+    max-width: 10%;
+  }
+.sunny-morning-gradient-text {
+      background-color: red;
+      background-image: linear-gradient(120deg,#ffa354 0,#ff3900 100%);
+      background-size: 100%;
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+  }
+.amy-crisp-gradient-text {
+    background-color: red;
+    background-image: linear-gradient(120deg,#5081f5 0,#f68084 100%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.blue-gradient-text {
+
+    background: linear-gradient(40deg,#45cafc,#303f9f);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.young-passion-gradient-text {
+    background-image: -webkit-gradient(linear,left top,right top,from(#ff8177),color-stop(0,#ff867a),color-stop(21%,#ff8c7f),color-stop(52%,#f99185),color-stop(78%,#cf556c),to(#b12a5b));
+    background-image: linear-gradient(to right,#ff8177 0,#ff867a 0,#ff8c7f 21%,#f99185 52%,#cf556c 78%,#b12a5b 100%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.purple-gradient-text {
+    background-color: red;
+    background-image: linear-gradient(40deg,#ff6ec4,#7873f5) !important;
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.make-large-text{
+  font-size: large;
+}
+
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -339,7 +413,7 @@ h1, h2, h3, h4, h5,
   font-size: 1.3rem;
   text-transform: uppercase; }
   .site-logo a {
-    color: #fff; }
+    color: #000; }
     .site-logo a span {
       color: #c83660; }
 
@@ -348,7 +422,7 @@ h1, h2, h3, h4, h5,
   z-index: 1999;
   position: absolute;
   width: 100%;
-  background-color: rgba(0,0,0,0.5)}
+/*background-color: rgba(0,0,0,0.5)*/}
   .site-navbar .container-fluid {
     padding-left: 7rem;
     padding-right: 7rem; }
@@ -371,7 +445,7 @@ h1, h2, h3, h4, h5,
       display: inline-block; }
       .site-navbar .site-navigation .site-menu > li > a {
         padding: 5px 20px;
-        color: #fff;
+        color: #000;
         display: inline-block;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
@@ -620,7 +694,7 @@ h1, h2, h3, h4, h5,
     -o-transition: .3s all ease;
     transition: .3s all ease; }
     .sticky-wrapper .site-navbar .site-menu-toggle > span:before {
-      color: #fff !important; }
+      color: #000 !important; }
     .sticky-wrapper .site-navbar .site-menu > li {
       display: inline-block; }
       .sticky-wrapper .site-navbar .site-menu > li > a.active {
@@ -654,8 +728,8 @@ h1, h2, h3, h4, h5,
         .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active:after {
           background: #c83660; }
   .sticky-wrapper .shrink {
-    padding-top: 10px !important;
-    padding-bottom: 10px !important; }
+    padding-top: 30px !important;
+    padding-bottom: 30px !important; }
 
 /* Blocks */
 .intro-section {

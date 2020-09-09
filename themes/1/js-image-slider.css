@@ -2,6 +2,7 @@
 
 #sliderFrame, #sliderFrame div {
     box-sizing: content-box;
+    max-width: 100%;
 }
 #sliderFrame
 {
@@ -63,6 +64,7 @@
     background:none;
     position:relative;
     z-index:3;
+    display:none;
 }
 
 /* each bullet */
