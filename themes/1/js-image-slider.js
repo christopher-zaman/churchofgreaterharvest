@@ -5,7 +5,7 @@ var sliderOptions=
 	effect: "14, 15",
 	effectRandom: false,
 	pauseTime: 600,
-	transitionTime: 200,
+	transitionTime: 2600,
 	slices: 12,
 	boxes: 8,
 	hoverPause: 1,
